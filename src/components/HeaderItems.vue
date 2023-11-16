@@ -22,17 +22,11 @@
 
 <script>
     export default {
-        data() {
-            return {
-
-            }
-        }
+       
     }
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
     .header {
         display: flex;
         width: 100%;
