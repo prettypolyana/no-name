@@ -105,5 +105,6 @@
 
     .header__button-text {
         margin: 0;
+        font-size: 14px;
     }
 </style>

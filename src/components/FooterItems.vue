@@ -1,15 +1,17 @@
 <template>
     <section class="footer">
-        <p class="footer__text">
-            © Кондитерские изделия «Кристалл», 2000–2024
-        </p>
-        <div class="footer__one">
-            <a class="footer__text footer__link">
-                Политика конфиденциальности
-            </a>
+        <div class="footer__content">
             <p class="footer__text">
-                +7 (8412) 709-900
+                © Кондитерские изделия «Кристалл», 2000–2024
             </p>
+            <div class="footer__one">
+                <a class="footer__text footer__link">
+                    Политика конфиденциальности
+                </a>
+                <p class="footer__text">
+                    +7 (8412) 709-900
+                </p>
+            </div>
         </div>
     </section>
 </template>
@@ -23,14 +25,18 @@
 <style>
     .footer {
         background-color: black;
-        width: 1200px;
+        width: 100%;
         height: 16px;
         color: rgb(172, 172, 172);
-        position: absolute;
-        bottom: 0;
+        padding: 29px 0;
+    }
+
+    .footer__content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
         display: flex;
-        padding: 29px 120px;
-        gap: 400px;
+        justify-content: space-between;
     }
 
     .footer__text {
@@ -43,6 +49,6 @@
 
     .footer__one {
         display: flex;
-        gap: 31px;
+        gap: 30px;
     }
 </style>
