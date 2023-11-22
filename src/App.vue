@@ -36,7 +36,7 @@
   .content {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    margin: 31px auto 45px;
     display: flex;
     flex-direction: row;
     gap: 20px;
