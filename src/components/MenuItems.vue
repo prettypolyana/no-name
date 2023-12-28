@@ -46,6 +46,9 @@
         color: #191919;
         margin: 30px 0 0 30px;
         font-family: 'Playfair Display', sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 22px;
     }
 
     .menu__items {

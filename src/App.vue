@@ -4,7 +4,7 @@
       <CarouselItems />
       <div class="content">
         <MenuItems />
-        <div style="background: #333; width: 100%;">sdadf</div>
+        <CatalogItems />
       </div>
     </div>
     <FooterItems />
@@ -15,6 +15,7 @@
     import FooterItems from './components/FooterItems.vue';
     import CarouselItems from './components/CarouselItems.vue';
     import MenuItems from './components/MenuItems.vue';
+    import CatalogItems from './components/CatalogItems.vue';
 
     export default {
         components: {
@@ -22,7 +23,8 @@
             FooterItems,
             CarouselItems,
             MenuItems,
-}
+            CatalogItems
+        }
     }
 </script>
 
